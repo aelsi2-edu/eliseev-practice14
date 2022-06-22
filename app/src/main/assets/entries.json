@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Борщ",
+    "icon": "icons/ic_borsch.png",
+    "recipe": "recipes/borsch.txt",
+    "image": "images/borsch.jpg"
+  },
+  {
+    "name": "Цезарь",
+    "icon": "icons/ic_cesar.png",
+    "recipe": "recipes/cesar.txt",
+    "image": "images/cesar.jpg"
+  },
+  {
+    "name": "Блинчики",
+    "icon": "icons/ic_blinchik.png",
+    "recipe": "recipes/blinchik.txt",
+    "image": "images/blinchik.jpg"
+  },
+  {
+    "name": "Мол. коктейль",
+    "icon": "icons/ic_milkshake.png",
+    "recipe": "recipes/milkshake.txt",
+    "image": "images/milkshake.jpg"
+  },
+  {
+    "name": "Спагетти",
+    "icon": "icons/ic_spagetti.png",
+    "recipe": "recipes/spagetti.txt",
+    "image": "images/spagetti.jpg"
+  }
+]

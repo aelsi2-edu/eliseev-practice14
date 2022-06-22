@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:background="@drawable/menu_entry"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="false">
+    <ImageView
+        android:id="@+id/menu_entry_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        tools:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:id="@+id/menu_entry_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="6dp"
+        app:layout_constraintStart_toEndOf="@id/menu_entry_icon"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        tools:text="Печенье"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
